@@ -174,3 +174,9 @@ body {
 }
 
 /* end portfolio */
+
+/* start about */
+.desc {
+      max-width: 500px;
+}
+/* end about */
