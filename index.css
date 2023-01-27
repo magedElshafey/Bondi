@@ -2,7 +2,8 @@
       --green-color: #33d1cc;
       --dark-color: #19283f;
       --red-color: #ff3150;
-      --yellow-color: #ffc400
+      --yellow-color: #ffc400;
+      --section-color: #eff7fa;
 }
 
 body {
@@ -67,3 +68,44 @@ body {
 }
 
 /* end landing */
+
+/* start featuers */
+.main-title::after {
+      content: "";
+      width: 120px;
+      height: 3px;
+      background-color: var(--green-color);
+      position: absolute;
+      left: 50%;
+      bottom: -20px;
+      transform: translateX(-50%);
+      -webkit-transform: translateX(-50%);
+      -moz-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
+      -o-transform: translateX(-50%);
+}
+
+.icons-holder {
+      height: 200px;
+}
+.icons-holder svg {
+      left: 50%;
+      transform: translateX(-50%);
+      -webkit-transform: translateX(-50%);
+      -moz-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
+      -o-transform: translateX(-50%);
+}
+.number {
+      font-size: 12rem;
+      color: var(--section-color);
+}
+.icon{
+      color: var(--green-color);
+
+      
+}
+.features h4{
+      color: var(--yellow-color);
+}
+/* end featuers */
