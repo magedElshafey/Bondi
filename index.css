@@ -1,0 +1,49 @@
+:root {
+      --green-color: #33d1cc;
+      --dark-color: #19283f;
+      --red-color : #ff3150;
+      --yellow-color : #ffc400
+}
+
+body {
+      text-transform: capitalize;
+}
+
+/* start navbar */
+/*  end navbar*/
+.navbar {
+      background-color: var(--dark-color);
+}
+
+.navbar .nav-item a {
+      color: white;
+}
+
+.navbar .nav-item a.active,
+.navbar .nav-item a:hover,
+.navbar .nav-item a:focus {
+      color: var(--green-color);
+}
+
+.navbar-toggler {
+      border: 1px solid var(--green-color);
+}
+
+.navbar-toggler:focus {
+      box-shadow: none;
+
+}
+
+.menu {
+      color: white;
+
+}
+
+.search {
+      border-left: 2px solid var(--green-color);
+      color: var(--green-color);
+
+}
+.search svg {
+      font-size: 20px;
+}
