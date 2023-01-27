@@ -202,3 +202,10 @@ body {
       -o-transform: translateY(-50%);
 }
 /* end lab */
+
+/* start project */
+.project {
+      background-color: var(--dark-color);
+      max-height: 400px;
+}
+/* end project */
