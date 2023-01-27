@@ -1,12 +1,23 @@
 :root {
       --green-color: #33d1cc;
       --dark-color: #19283f;
-      --red-color : #ff3150;
-      --yellow-color : #ffc400
+      --red-color: #ff3150;
+      --yellow-color: #ffc400
 }
 
 body {
       text-transform: capitalize;
+}
+
+.main-button {
+      background-color: var(--red-color);
+      color: var(--yellow-color);
+      padding: 0.5rem 1rem;
+}
+
+.main-button:hover {
+      background-color: var(--red-color);
+      color: var(--yellow-color);
 }
 
 /* start navbar */
@@ -44,6 +55,15 @@ body {
       color: var(--green-color);
 
 }
+
 .search svg {
       font-size: 20px;
 }
+
+/* start landing */
+.landing {
+      background-color: var(--dark-color);
+      min-height: calc(100vh - 72px);
+}
+
+/* end landing */
